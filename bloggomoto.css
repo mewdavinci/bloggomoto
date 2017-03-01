@@ -11,155 +11,140 @@
 }
 
 @media only screen and (min-width: 360px) {
-  .flow-text {font-size: 1.68rem;}
   h1{font-size: 3.072rem;} 
   h2{font-size: 2.732rem;}
   h3{font-size: 2.026rem;} 
 }
 
 @media only screen and (min-width: 390px) {
-  .flow-text {font-size: 1.656rem;}
   h1{font-size: 3.096rem;} 
   h2{font-size: 2.756rem;}
   h3{font-size: 2.050rem;} 
 }
 
 @media only screen and (min-width: 420px) {
-  .flow-text {font-size: 1.632rem;}
   h1{font-size: 3.120rem;} 
   h2{font-size: 2.780rem;}
   h3{font-size: 2.074rem;} 
 }
 
 @media only screen and (min-width: 450px) {
-  .flow-text {font-size: 1.608rem;}
   h1{font-size: 3.144rem;} 
   h2{font-size: 2.804rem;}
   h3{font-size: 2.098rem;} 
 }
 
 @media only screen and (min-width: 480px) {
-  .flow-text {font-size: 1.584rem;}
   h1{font-size: 3.168rem;} 
   h2{font-size: 2.828rem;}
   h3{font-size: 2.122rem;} 
 }
 
 @media only screen and (min-width: 510px) {
-  .flow-text {font-size: 1.56rem;}
   h1{font-size: 3.192rem;} 
   h2{font-size: 2.852rem;}
   h3{font-size: 2.146rem;} 
 }
 
 @media only screen and (min-width: 540px) {
-  .flow-text {font-size: 1.536rem;}
   h1{font-size: 3.216rem;} 
   h2{font-size: 2.876rem;}
   h3{font-size: 2.170rem;} 
 }
 
 @media only screen and (min-width: 570px) {
-  .flow-text {font-size: 1.512rem;}
   h1{font-size: 3.240rem;} 
   h2{font-size: 2.900rem;}
   h3{font-size: 2.194rem;} 
 }
 
 @media only screen and (min-width: 600px) {
-  .flow-text {font-size: 1.488rem;}
   h1{font-size: 3.264rem;} 
   h2{font-size: 2.924rem;}
   h3{font-size: 2.218rem;} 
 }
 
 @media only screen and (min-width: 630px) {
-  .flow-text {font-size: 1.464rem;}
   h1{font-size: 3.288rem;} 
   h2{font-size: 2.948rem;}
   h3{font-size: 2.242rem;} 
 }
 
 @media only screen and (min-width: 660px) {
-  .flow-text {font-size: 1.44rem;}
   h1{font-size: 3.312rem;} 
   h2{font-size: 2.972rem;}
   h3{font-size: 2.266rem;} 
 }
 
 @media only screen and (min-width: 690px) {
-  .flow-text {font-size: 1.416rem;}
   h1{font-size: 3.336rem;} 
   h2{font-size: 2.996rem;}
   h3{font-size: 2.290rem;} 
 }
 
 @media only screen and (min-width: 720px) {
-  .flow-text {font-size: 1.392rem;}
   h1{font-size: 3.360rem;} 
   h2{font-size: 3.020rem;}
   h3{font-size: 2.314rem;} 
 }
 
 @media only screen and (min-width: 750px) {
-  .flow-text {font-size: 1.368rem;}
   h1{font-size: 3.384rem;} 
   h2{font-size: 3.044rem;}
   h3{font-size: 2.338rem;} 
 }
 
 @media only screen and (min-width: 780px) {
-  .flow-text {font-size: 1.344rem;}
   h1{font-size: 3.408rem;} 
   h2{font-size: 3.068rem;}
   h3{font-size: 2.362rem;} 
 }
 
 @media only screen and (min-width: 810px) {
-  .flow-text {font-size: 1.32rem;}
   h1{font-size: 3.432rem;} 
   h2{font-size: 3.092rem;}
   h3{font-size: 2.386rem;} 
 }
 
 @media only screen and (min-width: 840px) {
-  .flow-text {font-size: 1.296rem;}
   h1{font-size: 3.456rem;} 
   h2{font-size: 3.116rem;}
   h3{font-size: 2.410rem;} 
 }
 
 @media only screen and (min-width: 870px) {
-  .flow-text {font-size: 1.272rem;}
   h1{font-size: 3.480rem;} 
   h2{font-size: 3.140rem;}
   h3{font-size: 2.434rem;} 
 }
 
 @media only screen and (min-width: 900px) {
-  .flow-text {font-size: 1.248rem;}
   h1{font-size: 3.504rem;} 
   h2{font-size: 3.164rem;}
   h3{font-size: 2.458rem;}
 }
 
 @media only screen and (min-width: 930px) {
-  .flow-text {font-size: 1.224rem;}
   h1{font-size: 3.528rem;} 
   h2{font-size: 3.188rem;}
   h3{font-size: 2.482rem;}
 }
 
 @media only screen and (min-width: 960px) {
-  .flow-text {font-size: 1.2em;} 
   h1{font-size: 3.552rem;} 
   h2{font-size: 3.212rem;}
   h3{font-size: 2.506rem;}
 }
 
 @media only screen and (max-width: 360px) {
-  .flow-text {font-size: 1.68rem;}
   h1{font-size: 3.072rem;} 
   h2{font-size: 2.732rem;}
   h3{font-size: 2.026rem;} 
 }
+
+/*!
+ * The additional codes are ended here
+ * Bloggomoto v0.0.00 (http://www.templatemeter.my.id)
+ * Copyright 2017 Mew da Vinci
+ * MIT License (https://raw.githubusercontent.com/mewdavinci/bloggomoto/master/LICENSE)
+ */
