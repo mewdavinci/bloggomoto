@@ -4,6 +4,27 @@
  * MIT License (https://raw.githubusercontent.com/mewdavinci/bloggomoto/master/LICENSE)
  */
 
+
+/* ==========================================================================
+   START Flat Colors Palletes: http://flatcolors.net
+   ========================================================================== */
+/**
+ * Flat & Hip: http://flatcolors.net/palette/534-flat-hip#
+ */
+
+.flatpurple {
+  background-color: #462446 !important;
+}
+
+.flatpink {
+  background-color: #B05F6D !important;
+}
+
+/* ==========================================================================
+   END Flat Colors Palletes: http://flatcolors.net
+   ========================================================================== */
+
+
 input[type=search] {
   width: 130px;
   font-size: 1.2rem;
