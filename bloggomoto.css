@@ -53,126 +53,147 @@ input[type=search]:focus {
   h1{font-size: 3.072rem;} 
   h2{font-size: 2.732rem;}
   h3{font-size: 2.026rem;} 
+  h4{font-size: 1.400rem;}
 }
 
 @media only screen and (min-width: 390px) {
   h1{font-size: 3.096rem;} 
   h2{font-size: 2.756rem;}
   h3{font-size: 2.050rem;} 
+  h4{font-size: 1.424rem;}
 }
 
 @media only screen and (min-width: 420px) {
   h1{font-size: 3.120rem;} 
   h2{font-size: 2.780rem;}
   h3{font-size: 2.074rem;} 
+  h4{font-size: 1.448rem;}
 }
 
 @media only screen and (min-width: 450px) {
   h1{font-size: 3.144rem;} 
   h2{font-size: 2.804rem;}
   h3{font-size: 2.098rem;} 
+  h4{font-size: 1.472rem;}
 }
 
 @media only screen and (min-width: 480px) {
   h1{font-size: 3.168rem;} 
   h2{font-size: 2.828rem;}
   h3{font-size: 2.122rem;} 
+  h4{font-size: 1.496rem;}
 }
 
 @media only screen and (min-width: 510px) {
   h1{font-size: 3.192rem;} 
   h2{font-size: 2.852rem;}
   h3{font-size: 2.146rem;} 
+  h4{font-size: 1.520rem;}
 }
 
 @media only screen and (min-width: 540px) {
   h1{font-size: 3.216rem;} 
   h2{font-size: 2.876rem;}
   h3{font-size: 2.170rem;} 
+  h4{font-size: 1.544rem;}
 }
 
 @media only screen and (min-width: 570px) {
   h1{font-size: 3.240rem;} 
   h2{font-size: 2.900rem;}
   h3{font-size: 2.194rem;} 
+  h4{font-size: 1.568rem;}
 }
 
 @media only screen and (min-width: 600px) {
   h1{font-size: 3.264rem;} 
   h2{font-size: 2.924rem;}
   h3{font-size: 2.218rem;} 
+  h4{font-size: 1.592rem;}
 }
 
 @media only screen and (min-width: 630px) {
   h1{font-size: 3.288rem;} 
   h2{font-size: 2.948rem;}
   h3{font-size: 2.242rem;} 
+  h4{font-size: 1.616rem;}
 }
 
 @media only screen and (min-width: 660px) {
   h1{font-size: 3.312rem;} 
   h2{font-size: 2.972rem;}
   h3{font-size: 2.266rem;} 
+  h4{font-size: 1.640rem;}
 }
 
 @media only screen and (min-width: 690px) {
   h1{font-size: 3.336rem;} 
   h2{font-size: 2.996rem;}
   h3{font-size: 2.290rem;} 
+  h4{font-size: 1.664rem;}
 }
 
 @media only screen and (min-width: 720px) {
   h1{font-size: 3.360rem;} 
   h2{font-size: 3.020rem;}
   h3{font-size: 2.314rem;} 
+  h4{font-size: 1.688rem;}
 }
 
 @media only screen and (min-width: 750px) {
   h1{font-size: 3.384rem;} 
   h2{font-size: 3.044rem;}
   h3{font-size: 2.338rem;} 
+  h4{font-size: 1.712rem;}
 }
 
 @media only screen and (min-width: 780px) {
   h1{font-size: 3.408rem;} 
   h2{font-size: 3.068rem;}
   h3{font-size: 2.362rem;} 
+  h4{font-size: 1.736rem;}
 }
 
 @media only screen and (min-width: 810px) {
   h1{font-size: 3.432rem;} 
   h2{font-size: 3.092rem;}
   h3{font-size: 2.386rem;} 
+  h4{font-size: 1.760rem;}
 }
 
 @media only screen and (min-width: 840px) {
   h1{font-size: 3.456rem;} 
   h2{font-size: 3.116rem;}
   h3{font-size: 2.410rem;} 
+  h4{font-size: 1.784rem;}
 }
 
 @media only screen and (min-width: 870px) {
   h1{font-size: 3.480rem;} 
   h2{font-size: 3.140rem;}
-  h3{font-size: 2.434rem;} 
+  h3{font-size: 2.434rem;}
+  h4{font-size: 1.808rem;}
 }
 
 @media only screen and (min-width: 900px) {
   h1{font-size: 3.504rem;} 
   h2{font-size: 3.164rem;}
   h3{font-size: 2.458rem;}
+  h4{font-size: 1.832rem;}
 }
 
 @media only screen and (min-width: 930px) {
   h1{font-size: 3.528rem;} 
   h2{font-size: 3.188rem;}
   h3{font-size: 2.482rem;}
+  h4{font-size: 1.856rem;}
 }
 
 @media only screen and (min-width: 960px) {
   h1{font-size: 3.552rem;} 
   h2{font-size: 3.212rem;}
   h3{font-size: 2.506rem;}
+  h4{font-size: 1.880rem;}
 }
 
 @media only screen and (max-width: 360px) {
