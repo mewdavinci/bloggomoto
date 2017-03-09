@@ -15,6 +15,22 @@
  * #e57373 red lighten-2 materializecss
  */
 
+.flatwhite {
+  background-color: #FAFAFA !important;
+}
+
+.flatamber {
+  background-color: #FFD54F !important;
+}
+
+.flatteal {
+  background-color: #00BFA5 !important;
+}
+
+.flatred {
+  background-color: #E57373 !important;
+}
+
 .flatpurple {
   background-color: #462446 !important;
 }
