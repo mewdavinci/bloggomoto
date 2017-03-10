@@ -8,36 +8,73 @@
 /* ==========================================================================
    START Flat Colors Palletes: http://flatcolors.net
    ========================================================================== */
+
 /**
- * Flat & Hip: http://flatcolors.net/palette/534-flat-hip#
- * #ffd54f amber lighten-2 materializecss
- * #00bfa5 teal accent-4 materializecss
- * #e57373 red lighten-2 materializecss
+ * Johnny Monochromatic: http://flatcolors.net/palette/176-johnny-monochromatic#
  */
 
-.flatwhite {
-  background-color: #FAFAFA !important;
+.white {
+  background-color: #F0F0F0 !important;
 }
 
-.flatamber {
+.white-text {
+  color: #F0F0F0 !important;
+}
+
+.black {
+  background-color: #0A0A0A !important;
+}
+
+.black-text {
+  color: #0A0A0A !important;
+}
+
+/**
+ * Flat & Hip: http://flatcolors.net/palette/534-flat-hip#
+ */
+
+.amber {
   background-color: #FFD54F !important;
 }
 
-.flatteal {
+.amber-text {
+  color: #FFD54F !important;
+}
+
+.teal {
   background-color: #00BFA5 !important;
 }
 
-.flatred {
+.teal-text {
+  color: #00BFA5 !important;
+}
+
+
+.red {
   background-color: #E57373 !important;
 }
 
-.flatpurple {
+.red-text {
+  color: #E57373 !important;
+}
+
+.purple {
   background-color: #462446 !important;
 }
 
-.flatpink {
+.purple-text {
+  color: #462446 !important;
+}
+
+.pink {
   background-color: #B05F6D !important;
 }
+
+.pink-text {
+  color: #B05F6D !important;
+}
+
+
 
 
 /* ==========================================================================
