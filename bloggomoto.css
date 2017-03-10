@@ -8,11 +8,9 @@
 /* ==========================================================================
    START Flat Colors Palletes: http://flatcolors.net
    ========================================================================== */
-
 /**
  * Johnny Monochromatic: http://flatcolors.net/palette/176-johnny-monochromatic#
  */
-
 .white {
   background-color: #F0F0F0 !important;
 }
@@ -32,7 +30,6 @@
 /**
  * Flat & Hip: http://flatcolors.net/palette/534-flat-hip#
  */
-
 .amber {
   background-color: #FFD54F !important;
 }
@@ -73,10 +70,6 @@
 .pink-text {
   color: #B05F6D !important;
 }
-
-
-
-
 /* ==========================================================================
    END Flat Colors Palletes: http://flatcolors.net
    ========================================================================== */
@@ -103,17 +96,74 @@ input[type=search]:focus {
   height: auto;
 }
 
+
+/* ==========================================================================
+   START Google Fonts: https://fonts.google.com/
+   ========================================================================== */
+/**
+ * Roboto: https://fonts.googleapis.com/css?family=Roboto:300,300i
+ */
+/* light */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+/* italic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0atzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+}
+
+/**
+ * Source Sans Pro: https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,700i
+ */
+/* light */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format('woff2');
+}
+/* italic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightIt'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2) format('woff2');
+}
+
+/* bold italic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldIt'), url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nnl6YROR5rHLkdLoHwoOWA.woff2) format('woff2');
+}
+/* ==========================================================================
+   END Google Fonts: https://fonts.google.com/
+   ========================================================================== */
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
 }
 
 html {
-  line-height: 1.5;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  color: #0A0A0A;
 }
-
 
 @media only screen and (min-width: 0) {
   html {
@@ -139,8 +189,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  line-height: 1.1;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 
 h1 a,
@@ -176,14 +226,7 @@ h6 {
   font-size: 1rem;
 }
 
-i {
-  font-style: italic;
-}
 
-
-b {
-  font-weight: 500;
-}
 
 @media only screen and (min-width: 360px) {
   h1 {
