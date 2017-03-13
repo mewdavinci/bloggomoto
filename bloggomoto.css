@@ -1,0 +1,697 @@
+/*!
+ * Bloggomoto v0.0.00 (http://www.templatemeter.my.id)
+ * Copyright 2017 Mew da Vinci
+ * MIT License (https://raw.githubusercontent.com/mewdavinci/bloggomoto/master/LICENSE)
+ */
+
+
+/* ==========================================================================
+   START Flat Colors Palletes: http://flatcolors.net
+   ========================================================================== */
+/**
+ * Johnny Monochromatic: http://flatcolors.net/palette/176-johnny-monochromatic#
+ */
+.white {
+  background-color: #F0F0F0 !important;
+}
+
+.white-text {
+  color: #F0F0F0 !important;
+}
+
+.black {
+  background-color: #0A0A0A !important;
+}
+
+.black-text {
+  color: #0A0A0A !important;
+}
+
+/**
+ * Flat & Hip: http://flatcolors.net/palette/534-flat-hip#
+ */
+.amber {
+  background-color: #FFD54F !important;
+}
+
+.amber-text {
+  color: #FFD54F !important;
+}
+
+.teal {
+  background-color: #00BFA5 !important;
+}
+
+.teal-text {
+  color: #00BFA5 !important;
+}
+
+
+.red {
+  background-color: #E57373 !important;
+}
+
+.red-text {
+  color: #E57373 !important;
+}
+
+.purple {
+  background-color: #462446 !important;
+}
+
+.purple-text {
+  color: #462446 !important;
+}
+
+.pink {
+  background-color: #B05F6D !important;
+}
+
+.pink-text {
+  color: #B05F6D !important;
+}
+/* ==========================================================================
+   END Flat Colors Palletes: http://flatcolors.net
+   ========================================================================== */
+
+
+input[type=search] {
+  width: 130px;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background: none;
+  padding: 12px 20px 12px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+  width: 100%;
+}
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ==========================================================================
+   START Google Fonts: https://fonts.google.com/
+   ========================================================================== */
+/**
+ * Roboto: https://fonts.googleapis.com/css?family=Roboto:300,300i
+ */
+/* light */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), 
+     url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), /* Super Modern Browsers */
+     url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff'), /* Modern Browsers */
+     url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype'); /* Safari, Android, iOS */
+}
+
+/* italic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), 
+     url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0atzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2'), /* Super Modern Browsers */
+     url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at4bN6UDyHWBl620a-IRfuBk.woff) format('woff'), /* Modern Browsers */
+     url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at50EAVxt0G0biEntp43Qt6E.ttf) format('truetype'); /* Safari, Android, iOS */
+}
+
+
+/**
+ * Source Sans Pro: https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,700i
+ */
+/* light */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), 
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format('woff2'), /* Super Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format('woff'), /* Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMw1o1eFRj7wYC6JbISqOjY.ttf) format('truetype'); /* Safari, Android, iOS */
+}
+
+/* italic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightIt'), 
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6E78GtRp3lhchupCJNw8t58.woff2) format('woff2'), /* Super Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff) format('woff'), /* Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Iue0YgdIF4L_q7PS4yTQOQ.ttf) format('truetype'); /* Safari, Android, iOS */
+}
+
+/* bold italic */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldIt'), 
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nnl6YROR5rHLkdLoHwoOWA.woff2) format('woff2'), /* Super Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff) format('woff'), /* Modern Browsers */
+     url(https://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Edtd7Dq2ZflsctMEexj2lw.ttf) format('truetype'); /* Safari, Android, iOS */
+}
+/* ==========================================================================
+   END Google Fonts: https://fonts.google.com/
+   ========================================================================== */
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  color: #0A0A0A;
+}
+
+@media only screen and (min-width: 0) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-size: 3.56rem;
+}
+
+h3 {
+  font-size: 2.92rem;
+}
+
+h4 {
+  font-size: 2.28rem;
+}
+
+h5 {
+  font-size: 1.64rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+
+
+@media only screen and (min-width: 360px) {
+  h1 {
+    font-size: 3.072rem;
+  }
+  h2 {
+    font-size: 2.732rem;
+  }
+  h3 {
+    font-size: 2.026rem;
+  }
+  h4 {
+    font-size: 1.400rem;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  h1 {
+    font-size: 3.096rem;
+  }
+  h2 {
+    font-size: 2.756rem;
+  }
+  h3 {
+    font-size: 2.050rem;
+  }
+  h4 {
+    font-size: 1.424rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  h1 {
+    font-size: 3.120rem;
+  }
+  h2 {
+    font-size: 2.780rem;
+  }
+  h3 {
+    font-size: 2.074rem;
+  }
+  h4 {
+    font-size: 1.448rem;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  h1 {
+    font-size: 3.144rem;
+  }
+  h2 {
+    font-size: 2.804rem;
+  }
+  h3 {
+    font-size: 2.098rem;
+  }
+  h4 {
+    font-size: 1.472rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 3.168rem;
+  }
+  h2 {
+    font-size: 2.828rem;
+  }
+  h3 {
+    font-size: 2.122rem;
+  }
+  h4 {
+    font-size: 1.496rem;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  h1 {
+    font-size: 3.192rem;
+  }
+  h2 {
+    font-size: 2.852rem;
+  }
+  h3 {
+    font-size: 2.146rem;
+  }
+  h4 {
+    font-size: 1.520rem;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  h1 {
+    font-size: 3.216rem;
+  }
+  h2 {
+    font-size: 2.876rem;
+  }
+  h3 {
+    font-size: 2.170rem;
+  }
+  h4 {
+    font-size: 1.544rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  h1 {
+    font-size: 3.240rem;
+  }
+  h2 {
+    font-size: 2.900rem;
+  }
+  h3 {
+    font-size: 2.194rem;
+  }
+  h4 {
+    font-size: 1.568rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 3.264rem;
+  }
+  h2 {
+    font-size: 2.924rem;
+  }
+  h3 {
+    font-size: 2.218rem;
+  }
+  h4 {
+    font-size: 1.592rem;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  h1 {
+    font-size: 3.288rem;
+  }
+  h2 {
+    font-size: 2.948rem;
+  }
+  h3 {
+    font-size: 2.242rem;
+  }
+  h4 {
+    font-size: 1.616rem;
+  }
+}
+
+
+@media only screen and (min-width: 660px) {
+  h1 {
+    font-size: 3.312rem;
+  }
+  h2 {
+    font-size: 2.972rem;
+  }
+  h3 {
+    font-size: 2.266rem;
+  }
+  h4 {
+    font-size: 1.640rem;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  h1 {
+    font-size: 3.336rem;
+  }
+  h2 {
+    font-size: 2.996rem;
+  }
+  h3 {
+    font-size: 2.290rem;
+  }
+  h4 {
+    font-size: 1.664rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    font-size: 3.360rem;
+  }
+  h2 {
+    font-size: 3.020rem;
+  }
+  h3 {
+    font-size: 2.314rem;
+  }
+  h4 {
+    font-size: 1.688rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  h1 {
+    font-size: 3.384rem;
+  }
+  h2 {
+    font-size: 3.044rem;
+  }
+  h3 {
+    font-size: 2.338rem;
+  }
+  h4 {
+    font-size: 1.712rem;
+  }
+}
+
+
+@media only screen and (min-width: 780px) {
+  h1 {
+    font-size: 3.408rem;
+  }
+  h2 {
+    font-size: 3.068rem;
+  }
+  h3 {
+    font-size: 2.362rem;
+  }
+  h4 {
+    font-size: 1.736rem;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  h1 {
+    font-size: 3.432rem;
+  }
+  h2 {
+    font-size: 3.092rem;
+  }
+  h3 {
+    font-size: 2.386rem;
+  }
+  h4 {
+    font-size: 1.760rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  h1 {
+    font-size: 3.456rem;
+  }
+  h2 {
+    font-size: 3.116rem;
+  }
+  h3 {
+    font-size: 2.410rem;
+  }
+  h4 {
+    font-size: 1.784rem;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  h1 {
+    font-size: 3.480rem;
+  }
+  h2 {
+    font-size: 3.140rem;
+  }
+  h3 {
+    font-size: 2.434rem;
+  }
+  h4 {
+    font-size: 1.808rem;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 3.504rem;
+  }
+  h2 {
+    font-size: 3.164rem;
+  }
+  h3 {
+    font-size: 2.458rem;
+  }
+  h4 {
+    font-size: 1.832rem;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  h1 {
+    font-size: 3.528rem;
+  }
+  h2 {
+    font-size: 3.188rem;
+  }
+  h3 {
+    font-size: 2.482rem;
+  }
+  h4 {
+    font-size: 1.856rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  h1 {
+    font-size: 3.552rem;
+  }
+  h2 {
+    font-size: 3.212rem;
+  }
+  h3 {
+    font-size: 2.506rem;
+  }
+  h4 {
+    font-size: 1.880rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 3.072rem;
+  }
+  h2 {
+    font-size: 2.732rem;
+  }
+  h3 {
+    font-size: 2.026rem;
+  }
+  h4 {
+    font-size: 1.400rem;
+  }
+}
+
+
+/* ==========================================================================
+   START Responsive Row & Columns
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+[class*='col'] {
+  float: left;
+  padding: 0.75rem;
+}
+
+
+/* For mobile phones: */
+[class*='col'] {
+  width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .col.m1 {
+    width: 8.33%;
+  }
+  .col.m2 {
+    width: 16.66%;
+  }
+  .col.m3 {
+    width: 25%;
+  }
+  .col.m4 {
+    width: 33.33%;
+  }
+  .col.m5 {
+    width: 41.66%;
+  }
+  .col.m6 {
+    width: 50%;
+  }
+  .col.m7 {
+    width: 58.33%;
+  }
+  .col.m8 {
+    width: 66.66%;
+  }
+  .col.m9 {
+    width: 75%;
+  }
+  .col.m10 {
+    width: 83.33%;
+  }
+  .col.m11 {
+    width: 91.66%;
+  }
+  .col.m12 {
+    width: 100%;
+  }
+}
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .col.l1 {
+    width: 8.33%;
+  }
+  .col.l2 {
+    width: 16.66%;
+  }
+  .col.l3 {
+    width: 25%;
+  }
+  .col.l4 {
+    width: 33.33%;
+  }
+  .col.l5 {
+    width: 41.66%;
+  }
+  .col.l6 {
+    width: 50%;
+  }
+  .col.l7 {
+    width: 58.33%;
+  }
+  .col.l8 {
+    width: 66.66%;
+  }
+  .col.l9 {
+    width: 75%;
+  }
+  .col.l10 {
+    width: 83.33%;
+  }
+  .col.l11 {
+    width: 91.66%;
+  }
+  .col.l12 {
+    width: 100%;
+  }
+}
+/* ==========================================================================
+   END Responsive Row & Columns
+   ========================================================================== */
+
+
+/*!
+ * The additional codes are ended here
+ * Bloggomoto v0.0.00 (http://www.templatemeter.my.id)
+ * Copyright 2017 Mew da Vinci
+ * MIT License (https://raw.githubusercontent.com/mewdavinci/bloggomoto/master/LICENSE)
+ */
